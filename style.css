@@ -133,6 +133,14 @@ section .icons{
     .icons .bi{
         font-size: 2rem;
     }
+    div.dark-mode{
+        font-size: 1rem;
+    }
+    .dark-mode label{
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+    }
 }
 @media screen and (max-width: 500px) {
     header{
