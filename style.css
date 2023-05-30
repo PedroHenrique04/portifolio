@@ -55,10 +55,9 @@ input{
 /*FIM DARK MODE*/
 header{
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1280px;
     max-width: 800px;
 }
 /* MENU DESKTOP */
@@ -131,9 +130,8 @@ section .icons{
     section .name h2{
         font-size: 1.5rem;
     }
-    section .linkedin img, 
-    section .git img{
-    width: 60px;
+    .icons .bi{
+        font-size: 2rem;
     }
 }
 @media screen and (max-width: 500px) {
@@ -145,6 +143,9 @@ section .icons{
     }
     section .name h2{
         font-size: 1rem;
+    }
+    .icons .bi{
+        font-size: 1.5rem;
     }
 }
 
